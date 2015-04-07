@@ -1,0 +1,43 @@
+{
+  "version": "0.1",
+  "name": "Space Fight",   
+  "description": "Touch aliens for destroy,use your ability",
+  "launch_path": "/index.html",
+  "icons": {
+    "16": "/icons/icon-16.png",
+    "48": "/icons/icon-48.png",
+	"60": "/icons/icon-60.png",
+    "128": "/icons/icon-128.png"
+  },  
+  "type": "web",
+  "permissions": {    
+    "audio-channel-content":{
+		"description":"Use the audio channel for the music player"
+	},
+    "audio-channel-normal":{
+		"description":"Use the audio channel for the music player"
+	}    
+  },
+  "orientation": "landscape-secondary",
+  "fullscreen": "true",
+  "developer": {
+    "name": "Asiker",
+    "url": "http://spacefight.apphb.com/nav.aspx"
+  },
+  "installs_allowed_from": ["*"],  
+  "locales": {
+    "es": {
+      "description": "Toca los alienigenas para destruirlos, usa tu habilidad.",
+      "developer": {
+        "url": "http://spacefight.apphb.com/nav.aspx"
+      }
+    },
+    "en": {
+      "description": "Touch aliens for destroy, use your ability",
+      "developer": {
+        "url": "http://spacefight.apphb.com/nav.aspx"
+      }
+    }
+  },
+  "default_locale": "es"
+}
